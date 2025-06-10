@@ -4,3 +4,11 @@ ro.config.avoid_gfx_accel=true
 #Refresh Rate
 ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+
+# Audio
+persist.vendor.audio_fx.current=waves
+persist.vendor.audio_fx.waves.maxxsense=true
+persist.vendor.audio_fx.waves.proc_twks=true
+persist.vendor.audio_fx.waves.processing=true
+persist.vendor.audio_fx.waves.processing_nx=true
+persist.vendor.audio_fx.waves.systrace=true
