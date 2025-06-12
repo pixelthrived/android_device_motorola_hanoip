@@ -1,0 +1,7 @@
+on property:ro.boot.hardware.sku=XT2147-1 // Moto G40 Fusion
+    setprop persist.sys.device_camera_info_rear 64,8,2
+    setprop persist.sys.device_camera_info_front 16
+
+on property:ro.boot.hardware.sku=XT2135-1 // Moto G60
+    setprop persist.sys.device_camera_info_rear 108,8,2
+    setprop persist.sys.device_camera_info_front 32
